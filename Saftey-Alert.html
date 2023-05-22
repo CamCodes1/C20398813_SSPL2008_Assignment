@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Saftey Alerts</title>
+	<link rel="stylesheet" type="text/css" href="./CSS/CSS-3.css">
+	<script src="./JS/Java.js"></script>
+	</head>
+	<body>
+	<section id="Header">
+	<div class="header">
+	<h1>Saftey Alerts</h1>
+	</section>
+	</div>
+	<section id="Menu">
+	<div class="menu">
+	<nav>
+	<ul>
+	<li><a href="Worker-Saftey.html">Tracking Worker Saftey</a></li>
+	<li><a href="Overall-Details.html">Overall Details</a></li>
+	<li><a href="Construct-Process.html">Construction Process</a></li>
+	<li><a href="API.html">Weather Chart</a></li>
+	<li><a href="index.html">Home</a></li>
+	</ul>
+	</nav>
+	</div>
+	</section>
+	<hr>
+	<div class="main">
+	<p>
+	This is where incidents that occur on site can be logged for site records.
+	<br>This is for the saftey of management and for employees within on site insurance for injuries.
+	</p>
+	<br>
+	<div class="input">
+	<form method = "get" onsubmit="return false">
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date"><br><br>
+		<label for="time">Time:</label>
+		<input type="time" id="time" name="time"><br><br>
+		<label for="parties">Parties Involved:</label>
+		<input type="text" id="parties" name="parties"><br><br>
+		<label for="incident">Incident:</label>
+		<input type="text" id="incident" name="incident"><br><br>
+		<br>
+        	<button value= "click" type="submit" onclick="myFunction()">Submit</button>
+		<br><br><hr>
+		Record: <span id="result"></span>
+	</form>
+	</div>
+	</div>
+	</body>
+</html>

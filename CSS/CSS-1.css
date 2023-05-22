@@ -1,0 +1,37 @@
+/*Defined colour scheme is shades of blue listed darkest to lightest - #7286D3, #8EA7E9, #E5E0FF, #FFF2F2*/
+
+.header {
+	background-color: #7286D3;
+}
+
+.main {
+	background-color: #E5E0FF;
+}
+
+.menu {
+	background-color: #8EA7E9;
+}
+
+.menu ul{
+	margin:4;
+	display: flex;
+}
+
+.menu li{
+	list-styletype:none;
+	display: inline;
+	text-align: center;
+	padding:30px;
+}
+
+a:hover{
+	background-color:#FEF2F4;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}

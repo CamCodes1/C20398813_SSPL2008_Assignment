@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Weather Chart	</title>
+	<link rel="stylesheet" type="text/css" href="./CSS/CSS-5.css">
+	<script src="./JS/API.js"></script>
+	</head>
+	<body>
+	<section id="Header">
+	<div class="header">
+	<h1>Weather Chart</h1>
+	</section>
+	</div>
+	<section id="Menu">
+	<div class="menu">
+	<nav>
+	<ul>
+	<li><a href="Construct-Process.html">Construction Process</a></li>
+	<li><a href="Worker-Saftey.html">Tracking Worker Saftey</a></li>
+	<li><a href="Saftey-Alert.html">Reporting Safety Alerts</a></li>
+	<li><a href="Overall-Details.html">Overall Construction Details</a></li>
+	<li><a href="index.html">Home</a></li>
+	</ul>
+	</nav>
+	</div>
+	</section>
+	<hr>
+	<div class="main">
+	<p>The different buttons below show the weather over the span of a week during the construction phase.
+	<br>The different factors included in this weather analysis are temperature, rain, visability and windspeed.</p>
+	<div class="input">
+	<form method = "get" onsubmit="return false">
+		<button value= "click" type="submit" onclick="getMay22()">May 22nd</button>
+		<button value= "click" type="submit" onclick="getMay23()">May 23rd</button>
+		<button value= "click" type="submit" onclick="getMay24()">May 24th</button>
+		<button value= "click" type="submit" onclick="getMay25()">May 25th</button>
+		<button value= "click" type="submit" onclick="getMay26()">May 26th</button>
+		<button value= "click" type="submit" onclick="getMay27()">May 27th</button>
+		<button value= "click" type="submit" onclick="getMay28()">May 28th</button>
+		<br><br>
+		Result:
+		<span id="Result-22"></span>
+		<span id="Result-23"></span>
+		<span id="Result-24"></span>
+		<span id="Result-25"></span>
+		<span id="Result-26"></span>
+		<span id="Result-27"></span>
+		<span id="Result-28"></span>
+	</form>
+	</div>
+	</div>
+	</body>
+</html>

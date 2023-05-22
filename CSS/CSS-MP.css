@@ -1,0 +1,80 @@
+/*Defined colour scheme is shades of blue listed darkest to lightest - #7286D3, #8EA7E9, #E5E0FF, #FFF2F2*/
+
+.header {
+	background-color: #7286D3;
+}
+
+.menu {
+	background-color: #8EA7E9;
+}
+
+.Overall {
+	background-color: #E5E0FF;
+}
+
+.WorldC {
+	background-color: #FFF2F2;
+}
+
+.menu ul{
+	margin:4;
+	display: flex;
+}
+
+.menu li{
+	list-styletype:none;
+	display: inline;
+	text-align: center;
+	padding:30px;
+}
+
+a:hover{
+	background-color:#FEF2F4;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}
+
+.header img {
+	position: absolute;
+	top: 0px;
+	left: 940px;
+	z-index: 0;
+	max-width: 0px;
+	margin: 0px;
+}
+
+.KUS img {
+	position: absolute;
+	top: 387px;
+	left: 601px;
+}
+
+.OURCA img {
+	position: absolute;
+	top: 484px;
+	left: 723px;
+}
+
+.OURCH img {
+	position: absolute;
+	top: 586px;
+	left: 830px;
+}
+
+.PAX img {
+	position: absolute;
+	top: 684px;
+	left: 723px;
+}
+
+.SAN img {
+	position: absolute;
+	top: 782px;
+	left: 601px;
+}
